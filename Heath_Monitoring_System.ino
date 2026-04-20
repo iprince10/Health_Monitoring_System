@@ -16,10 +16,10 @@ DallasTemperature sensors(&oneWire);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ======= Cloud Credentials =======
-const char DEVICE_LOGIN_NAME[] = "82d26194-69b0-4199-ae68-53d4e739aad1";
-const char SSID[]              = "Oneplusnord";
-const char PASS[]              = "prince123";
-const char DEVICE_KEY[]        = "bO9r8s07V6Sf3LTkNd@!bbjmS";
+const char DEVICE_LOGIN_NAME[] = "Device_ID_Name";
+const char SSID[]              = "Wifi_Name";
+const char PASS[]              = "Wifi_Password";
+const char DEVICE_KEY[]        = "Secret_Key";
 
 // ======= Cloud Variables =======
 CloudHeartRate heart_rate;
